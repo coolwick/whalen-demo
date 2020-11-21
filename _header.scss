@@ -1,0 +1,16 @@
+@import "_variables.scss";
+@import "_mixins.scss";
+
+.header {
+  background-image: url(../img/emote.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  height: 90vh;
+  @include flex-col-center;
+  justify-content: center;
+}
+.header-title {
+  font-size: 8rem;
+  text-align: center;
+  text-transform: uppercase;
+}

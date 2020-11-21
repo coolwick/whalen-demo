@@ -1,0 +1,41 @@
+@import "_variables.scss";
+@import "_mixins.scss";
+
+.about {
+  height: 100vh;
+}
+.about-row {
+  height: 100%;
+  width: 85vw;
+  margin: 2rem auto;
+  background-color: red;
+  @include flex-row-center;
+  justify-content: space-between;
+}
+.about-col {
+  width: 30%;
+  height: 90%;
+  background-color: blue;
+  @include flex-col-center;
+  justify-content: space-evenly;
+}
+.about-gallery-img {
+  width: 90%;
+}
+.about-text {
+  font-size: 2rem;
+  color: #fff;
+}
+.about-thumbnail {
+  width: 100%;
+  height: 30%;
+  background-size: cover;
+  background-position: center;
+  padding: 1rem;
+}
+.about-thumbnail-1 {
+  background-image: url(../img/emote.jpg);
+}
+.about-thumbnail-2 {
+  background-image: url(../img/emote.jpg);
+}

@@ -1,0 +1,13 @@
+@import "_variables.scss";
+@import "_header.scss";
+@import "_about.scss";
+
+html,
+body,
+* {
+  box-sizing: border-box; //changes how width and height are measured,how we measure the space an element occupies
+  //header is 300px worth of space + 20px space of padding still 300px space taken up\
+  padding: 0;
+  margin: 0;
+  font-size: 62.5%; //1 rem === 10px, accessability?, media queries/responsive design, iphone 50% font
+}
